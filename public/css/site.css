@@ -1,0 +1,55 @@
+/* Unified site styles */
+body {
+  background: #f5f7fa;
+  color: #2c3e50;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding-top: 56px; /* space for fixed navbar */
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Centering cards/forms responsively */
+.center, .loginForm {
+  max-width: 480px;
+  margin: 5rem auto;
+  position: relative;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(40, 44, 63, 0.08);
+  overflow: hidden;
+}
+
+.card-header {
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+/* Small screens tweaks */
+@media (max-width: 575.98px) {
+  .center, .loginForm {
+    margin: 2.5rem 1rem;
+    max-width: 100%;
+  }
+}
+
+/* Subtle link color */
+a {
+  color: #2a6fbd;
+}
+
+a:hover {
+  color: #235a95;
+  text-decoration: none;
+}
